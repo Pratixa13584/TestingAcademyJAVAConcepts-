@@ -1,0 +1,23 @@
+public class FindMaxNumber {
+    public static void main(String[] args) {
+
+        Scanner sc=new Scanner(System.in);
+         System.out.print("Enter First Number - : ");
+         int Firstnum = sc.nextInt();
+
+        System.out.print("Enter Second Number - : ");
+        int Secnum = sc.nextInt();
+
+        System.out.print("Enter Third Number - : ");
+        int Thirdnum = sc.nextInt();
+
+        if(Firstnum > Secnum && Firstnum > Thirdnum) {
+            System.out.println("Maximum Number is - : " + Firstnum);
+        } else if (Secnum >Firstnum  && Secnum > Thirdnum) {
+            System.out.println("Maximum Number is - : " + Secnum);
+
+        }
+        else {
+            System.out.println("Maximum Number is - : " + Thirdnum);
+        }
+    }
