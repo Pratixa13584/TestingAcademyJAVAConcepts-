@@ -1,0 +1,23 @@
+public class ArrylistPractice {
+    public static void main(String[] args) {
+
+        ArrayList<String> arr=new ArrayList<>();
+        arr.add("able");
+        arr.add("capable");
+        arr.add("maple");
+        arr.add("regable");
+        arr.add("manageable");
+
+        ArrayList<String> newarr=new ArrayList<>();
+        for(String obj : arr) {
+
+            if(obj.contains("ble"))
+            {
+                newarr.add(obj);
+                System.out.println(obj);
+            }
+
+        }
+        }
+    
+    }
